@@ -1,0 +1,14 @@
+.vscode/
+.idea/
+.DS_Store
+config.ini
+.env
+secret_key.txt
+credentials.json
+*.o
+*.pyc
+*.class
+/build/
+/dist/
+/node_modules/
+

@@ -15,7 +15,7 @@
 }
 
 .bg-body-tertiary {
-    position: fixed;
+    position: relative;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -28,7 +28,19 @@
 }
 .menu{
     display: flex;
-    justify-content: right;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
 }
-
+.text-logo{
+    margin-top: 15px;
+    font-size: 1.5em;
+    color: #ebeeff;
+}
+.search-input{
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    border: 0.5px solid #E980A2;
+}

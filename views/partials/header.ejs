@@ -20,9 +20,9 @@
           <img src="/img/account_circle.svg" alt="cart" width="38" height="32" class="d-inline-block align-text-top">
         </a>
       </div>
-
     </div>
   </nav>
+
   <div class="search-input">
     <!-- search.ejs -->
     <form action="/pesquisar" method="GET">
@@ -32,4 +32,9 @@
       <input type="search" name="q" placeholder="Pesquisar">
     </form>
   </div>
+  <!-- import carousel-->
+  <div class="carousel">
+    <%- include('./components/carousel.ejs') %>
+  </div>
+
 </header>

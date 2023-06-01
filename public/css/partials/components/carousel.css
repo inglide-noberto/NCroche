@@ -1,0 +1,58 @@
+.carousel {
+    /* Defina a altura desejada para o carousel */
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 400px;
+    border: 1px solid #000;
+  }
+  
+  .carousel-inner {
+    /* Defina a altura e a largura dos slides */
+    height: 50%;
+    width: 50%;
+  }
+  
+  .carousel-item {
+    /* Ajuste o posicionamento e o alinhamento dos slides */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel-item img {
+    /* Ajuste o tamanho das imagens dos slides */
+    width: 100%;
+    height: auto; /* Ou defina uma altura específica, se necessário */
+  }
+  
+  .carousel-caption {
+    /* Personalize a aparência da legenda do slide */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #980f0f;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    /* Personalize os ícones de controle do carousel */
+    background-color: #000;
+    color: #fff;
+    /* Personalize a aparência dos ícones, como tamanho e margens */
+  }
+  
+  .carousel-indicators li {
+    /* Personalize os indicadores de slide */
+    background-color: #000;
+    border: 1px solid #fff;
+  }
+  
+  .carousel-indicators .active {
+    /* Personalize o estilo do indicador ativo */
+    background-color: #fff;
+  }
+  
